@@ -1,0 +1,10 @@
+{
+  "name": "foundation-compass-app",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "jqueryui-timepicker-addon": "1.6.1",
+    "jquery-2.1.4": "http://code.jquery.com/jquery-2.1.4.min.js"
+  }
+}

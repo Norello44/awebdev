@@ -1,0 +1,18 @@
+/* CSS GLOBALE PER ORTICHE.NET * vedi dev.indivia */
+
+/* elementi generici */
+body {
+	font-family: sans-serif;
+	background-color: white;
+}
+
+img {
+	border: 0;
+}
+
+input.field {
+	background-color: white;
+	border: 1px inset #ddd;
+	font-size: 10pt;
+	padding: 0.1em;
+}

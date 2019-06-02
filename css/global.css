@@ -1,0 +1,83 @@
+/* CSS GLOBALE PER ORTICHE.NET * vedi dev.indivia */
+
+/* elementi generici */
+body {
+	font-family: sans-serif;
+	background-color: white;
+}
+
+img {
+	border: 0;
+}
+
+input.field {
+	background-color: white;
+	border: 1px inset #ddd;
+	font-size: 10pt;
+	padding: 0.1em;
+}
+
+/* selettore lingua */
+ul.langsel {
+	list-style-type: none;
+	font-size: 8pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: Verdana, sans-serif;
+	position: relative;
+	top: 2em;
+	float: left;
+	margin: 0 0 0 -2.2em;
+	padding: 0;
+	width: 1.5em;
+}
+
+ul.langsel li {
+	display: block;
+	text-align: center;
+	background-color: #eee;
+	margin-bottom: 0.2em;
+	padding: 0;
+}
+
+ul.langsel li.it {
+	background-color: #ddd;
+}
+
+ul.langsel li a:link, ul.langsel li a:visited {
+	color: #888;
+	text-decoration: none;
+}
+
+ul.langsel li a:hover, ul.langsel li a:active {
+	color: black;
+	text-decoration: none;
+}
+
+/* angolini rotondosi */
+/* questi sono vecchi, gli alngoli sono stati spostati direttante dentro i div corner1 è nel corpo, corner2 nel menulato, corner3 e corner4 sono definiti all'interno del file indivia.css, lascio queste specifiche solo perchè siano ritrovabili da qualcuno */
+
+div.corner1 {
+	background: url(http://www.indivia.net/img/corner_tl.png) no-repeat top left;
+	margin: 0;
+	padding: 0;
+}
+
+div.corner2 {
+	background: url(http://www.indivia.net/img/corner_tr.png) no-repeat top right;
+	margin: 0;
+	padding: 0;
+}
+
+div.corner3 {
+	background: url(http://www.indivia.net/img/corner_br.png) no-repeat bottom right;
+	margin: 0;
+	padding: 0;
+}
+
+div.corner4 {
+	/* questo va messo piu' internamente */
+	background: url(http://www.indivia.net/img/corner_bl.png) no-repeat bottom left;
+	margin: 0;
+	padding: 0.8em;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+  <meta name="IperTextStory" content="Made in Human">
+  <title>Area Navigazione</title>
+
+
+<!-- Questo file fa parte di Idra, (C) 2000 Enrico Colombini, licenza GNU-GPL, vedi i file idra.js e Licenza.html per i dettagli --><!-- esce se non si trova in un frame -->
+  <script language="JavaScript1.1" type="text/javascript">
+<!--
+if (this == top) {
+alert("Non devi aprire questa pagina, ma quella che si trova fuori dalla cartella Dati.")
+close();
+}
+//-->
+  </script><!-- include il modulo per avventure a scelte -->
+  <script language="JavaScript1.1" src="idra.js" type="text/javascript"></script><!-- include il programma dell'avventura -->
+  <script language="JavaScript1.1" src="gioco.js" type="text/javascript"></script>
+</head>
+
+
+<body onload="gioca()" style="background-color: rgb(255, 255, 255);" link="#000000" vlink="#000000">
+
+<br>
+
+<hr color="#000000" size="1"><br>
+
+<font size="-1"><!-- le focus() servono per non cambiare i link visitati con IE --><a href="javascript:parent.ctrl.focus();riparti()">Ricomincia
+dall'inizio</a><br>
+
+&nbsp;<br>
+
+</font>
+<hr color="#000000" size="1"><font size="-1"><br>
+
+<a href="javascript:parent.ctrl.focus();salva()">Salva la
+situazione corrente</a><br>
+
+&nbsp;<br>
+
+</font>
+<hr color="#000000" size="1"><font size="-1"><br>
+
+<a href="javascript:parent.ctrl.focus();riprendi()">Riprendi
+la situazione salvata</a><br>
+
+&nbsp;<br>
+
+</font>
+<hr color="#000000" size="1"><font size="-1"><br>
+
+<a href="javascript:parent.ctrl.focus();Informazioni()">Informazioni
+sull'ipertesto</a><br>
+
+&nbsp;<br>
+
+</font>
+<hr color="#000000" size="1"><font size="-1"><br>
+
+<a href="javascript:parent.ctrl.focus();infoIdra()">Informazioni
+sul software</a><br>
+
+&nbsp;<br>
+
+</font>
+<hr color="#000000" size="1"><font size="-1"><br>
+
+<!-- aggiunge la scelta Debugger se viene eseguita in un frame di nome "debug" -->
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+if (parent.name == "debug") {
+document.write('<a href="javascript:parent.ctrl.focus();alternaDebugger()">Debug<\/a>')
+}
+//-->
+</script></font>
+</body>
+</html>

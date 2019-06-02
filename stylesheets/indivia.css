@@ -1,0 +1,130 @@
+
+/* stili per joy.indivia.net */
+
+.blogimage {
+	margin-bottom: 1.5em;
+}
+
+.transient-header{
+	 width: 100%;
+}
+
+.preview {
+	border:0px; 
+	height:18em; 
+	width:15em;
+	margin-bottom: 1.2em;
+	margin-left: 1.2em;
+}
+
+.cf {
+	font-size: 5pt;
+	margin-left: 10px;
+
+}
+
+.menu{
+	list-style-type: none;
+}
+
+.footer{
+	text-align: center;
+	padding-top: 100px;
+}
+
+/* selettore lingua */
+ul.langsel {
+	list-style-type: none;
+	font-size: 8pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: Verdana, sans-serif;
+	position: relative;
+	top: 2em;
+	float: right;
+	margin: 0 0 0 -2.2em;
+	padding: 0;
+	width: 1.5em;
+	display:inline;
+}
+
+ul.langsel li {
+	display: block;
+	text-align: center;
+	margin-bottom: 0.2em;
+	padding: 0;
+}
+
+ul.langsel li a:link, ul.langsel li a:visited {
+	color: #888;
+	text-decoration: none;
+}
+
+ul.langsel li a:hover, ul.langsel li a:active {
+	color: black;
+	text-decoration: none;
+}
+
+img.langsel{
+	display:inline;
+	float:right;
+	position:relative;
+	right: -15px;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 20px;
+ 	height: 15px;
+ 	
+}
+
+a.button.joy1:hover{
+	background-color: #7ff;
+}
+
+a.button.joy1{
+	border: 1px solid #418485;
+}
+
+a.button.joy2:hover{
+	background-color: #f7f;
+}
+
+a.button.joy2{
+	border: 1px solid #7e3b7d;
+}
+
+a.button.joy3:hover{
+	background-color: #ff7;
+}
+
+a.button.joy3{
+	border: 1px solid #777639;
+}
+
+#phone button, #phone2 button, #phone3 button {
+	border: 1px solid #dddddd;
+	position: relative;
+	right: 0px;
+	top: 0px;
+	float: right;
+	display: inline;
+	height: 15px;
+	width: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#phone button span, #phone2 button span, #phone3 button span {
+	position: relative;
+	top: -5.1px;
+}
+
+.error {
+	display: none;
+}
+
+.float-modal.close-reveal-modal{
+	font-size: 1rem !important;
+    font-weight: normal !important;
+    line-height: normal !important;
+}
