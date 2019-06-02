@@ -1,3 +1,7 @@
 
 bella li
+<<<<<<< HEAD
  duke
+=======
+
+>>>>>>> a1c17a2dc7ceadf0a9eaaf88133c71df8ad3077c
